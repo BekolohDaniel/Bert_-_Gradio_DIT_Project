@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Weights & Biases
+wandb/
+
+# Local checkpoints and datasets (prevent heavy uploads)
+model_checkpoint/
+results/
+*.pt
+*.pth
+*.csv
+
+# OS generated files
+.DS_Store
+Thumbs.db
